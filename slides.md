@@ -1,10 +1,27 @@
 ---
 theme: default
-title: "Claviers customs : ergonomie, split et assemblage"
+title: "Reprogrammer son clavier"
 author: Victor Voisin
 highlighter: shiki
 transition: slide-left
 mdc: true
+---
+
+layout: cover
+---
+
+# Reprogrammer son clavier
+
+<p class="text-xl text-gray-400 mt-4">Du QWERTY au split : ergonomie et assemblage</p>
+
+<div class="mt-12 text-sm text-gray-500">
+  Victor Voisin · Jeudi 8 octobre 2026 · 12h15
+</div>
+
+<!--
+Laisser le titre respirer. Ne pas commencer à parler tout de suite.
+-->
+
 ---
 
 # Vous connaissez tous ça.
