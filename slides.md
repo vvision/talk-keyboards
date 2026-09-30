@@ -348,6 +348,7 @@ layout: two-cols
     <p class="text-sm text-gray-400 mt-1">Un microcontrôleur qui lit la matrice de touches et envoie les signaux USB (ou Bluetooth).</p>
     <ul class="text-sm text-gray-400 space-y-1 mt-2">
       <li><strong class="text-white">Pro Micro / Elite-C</strong> — filaire, USB-C</li>
+      <li><strong class="text-white">RP2040</strong> — filaire, plus puissant, mémoire flash généreuse (ex: Pico, KB2040)</li>
       <li><strong class="text-white">nice!nano</strong> — sans-fil, Bluetooth, batterie</li>
     </ul>
   </div>
@@ -549,6 +550,10 @@ Transition : "Une fois qu'on a le bon clavier physiquement, on peut s'attaquer a
   <div class="flex items-center gap-4 p-3 rounded bg-blue-50 dark:bg-blue-900">
     <span class="w-36 font-semibold text-sm shrink-0">Colemak-DH</span>
     <span class="text-sm text-gray-400">Optimisé anglais, très populaire. Variante DH déplace D et H sur la home row, réduit les extensions latérales de l'index.</span>
+  </div>
+  <div class="flex items-center gap-4 p-3 rounded bg-blue-50 dark:bg-blue-900">
+    <span class="w-36 font-semibold text-sm shrink-0">QWERTY-Lafayette</span>
+    <span class="text-sm text-gray-400">Garde QWERTY comme base (transition douce) et ajoute un layer dédié aux caractères français et symboles via une touche morte.</span>
   </div>
   <div class="flex items-center gap-4 p-3 rounded bg-blue-50 dark:bg-blue-900">
     <span class="w-36 font-semibold text-sm shrink-0">Ergol</span>
@@ -1185,9 +1190,9 @@ class: text-center
 
 # Commencer petit.
 
-<p class="text-xl mt-6 text-gray-400">Vous n'avez pas besoin d'un split 42 touches dès le premier jour.</p>
+<p class="text-xl mt-4 text-gray-400">Vous n'avez pas besoin d'un split 42 touches dès le premier jour.</p>
 
-<div class="mt-8 flex justify-center gap-4 flex-wrap">
+<div class="mt-6 flex justify-center gap-4 flex-wrap">
   <div class="px-5 py-3 bg-gray-100 dark:bg-gray-800 rounded-lg text-sm">
     <p class="font-semibold">Étape 1</p>
     <p class="text-gray-400">Un bon clavier mécanique TKL</p>
@@ -1209,9 +1214,30 @@ class: text-center
   </div>
 </div>
 
-<p class="mt-10 text-gray-400">Des questions ?</p>
+<!--
+Slide avant-dernière. Transition vers le message de clôture.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# Votre clavier, votre outil.
+
+<div class="mt-8 space-y-3 text-xl text-gray-400">
+  <p>Vous passez des milliers d'heures à taper.</p>
+  <p>Autant le faire avec un outil qui travaille <strong class="text-white">pour</strong> vous,</p>
+  <p>pas <strong class="text-white">contre</strong> vous.</p>
+</div>
+
+<p class="mt-10 text-lg">
+  Réinvestir dans son clavier, c'est réinvestir dans sa santé,<br>son confort — et son efficacité.
+</p>
+
+<p class="mt-12 text-gray-400">Des questions ?</p>
 
 <!--
-Dernière slide. Laisser le silence après "Des questions ?"
+Dernière slide. Lire lentement. Laisser le silence après "Des questions ?"
 Avoir le clavier sous la main pour une démo si quelqu'un veut tester.
 -->
