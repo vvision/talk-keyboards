@@ -1112,52 +1112,403 @@ Ce que ça a changé concrètement au quotidien.
 
 ---
 
-# Mes layers
+# Mes layers — vue d'ensemble
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="mt-6 space-y-2 text-sm">
+  <div class="flex items-center gap-4 p-2 rounded bg-gray-100 dark:bg-gray-800">
+    <span class="w-32 font-semibold shrink-0">BASE (QWERTY)</span>
+    <span class="w-40 font-mono text-xs text-gray-500 shrink-0">— layer par défaut</span>
+    <span class="text-gray-400">Lettres + home row mods (⌘ ⌥ ⌃ ⇧ sur ASDF/JKL;)</span>
+  </div>
+  <div class="flex items-center gap-4 p-2 rounded bg-purple-50 dark:bg-purple-900">
+    <span class="w-32 font-semibold shrink-0">SYM</span>
+    <span class="w-40 font-mono text-xs text-gray-500 shrink-0">hold <kbd class="px-1 bg-gray-200 dark:bg-gray-700 rounded">↵</kbd></span>
+    <span class="text-gray-400">Symboles ({} [] () ^ $ % @ & * …)</span>
+  </div>
+  <div class="flex items-center gap-4 p-2 rounded bg-green-50 dark:bg-green-900">
+    <span class="w-32 font-semibold shrink-0">NAV / NUM</span>
+    <span class="w-40 font-mono text-xs text-gray-500 shrink-0">hold <kbd class="px-1 bg-gray-200 dark:bg-gray-700 rounded">⎵</kbd> / hold <kbd class="px-1 bg-gray-200 dark:bg-gray-700 rounded">⌫</kbd></span>
+    <span class="text-gray-400">Navigation (flèches, Home/End) + pavé numérique</span>
+  </div>
+  <div class="flex items-center gap-4 p-2 rounded bg-orange-50 dark:bg-orange-900">
+    <span class="w-32 font-semibold shrink-0">ADJUST</span>
+    <span class="w-40 font-mono text-xs text-gray-500 shrink-0">SYM + NAV simultanés</span>
+    <span class="text-gray-400">Bluetooth, médias, flash firmware</span>
+  </div>
+  <div class="flex items-center gap-4 p-2 rounded bg-blue-50 dark:bg-blue-900">
+    <span class="w-32 font-semibold shrink-0">DIA</span>
+    <span class="w-40 font-mono text-xs text-gray-500 shrink-0">sticky layer ◆</span>
+    <span class="text-gray-400">Diacritiques français (à â é ê è ç î ï ô ù û)</span>
+  </div>
+</div>
 
-  <div>
-    <p class="font-semibold text-sm mb-2">Layer 0 — Base</p>
-    <div class="bg-gray-100 dark:bg-gray-800 rounded p-3 h-32 flex items-center justify-center">
-      <p class="text-gray-400 text-xs italic text-center">
-        ✏️ <em class="text-orange-400">Capture ou schéma de ton layer base<br>(ex: export keymap.c ou image KLE)</em>
-      </p>
+<!--
+"5 layers couvrent tout ce dont j'ai besoin — sans jamais déplacer les mains de la home row."
+-->
+
+---
+
+# Layer BASE — QWERTY + home row mods
+
+<div class="flex gap-8 justify-center mt-6 font-mono">
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">Q</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">W</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">E</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">R</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">T</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">A</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌘</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">S</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌥</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">D</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌃</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">F</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⇧</span></div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">G</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">Z</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">X</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">C</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">V</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">B</div>
+    </div>
+    <div class="flex gap-1 justify-end mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-600 text-[9px]">ESC</div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-gray-300 dark:bg-gray-600 text-[8px] leading-tight"><span>ESC</span><span class="text-[6px] text-gray-500">⇧</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-green-200 dark:bg-green-800 text-[8px] leading-tight"><span>⎵</span><span class="text-[6px] text-green-600 dark:text-green-300">NAV</span></div>
     </div>
   </div>
 
-  <div>
-    <p class="font-semibold text-sm mb-2">Layer 1 — Symboles / Chiffres</p>
-    <div class="bg-gray-100 dark:bg-gray-800 rounded p-3 h-32 flex items-center justify-center">
-      <p class="text-gray-400 text-xs italic text-center">
-        ✏️ <em class="text-orange-400">Capture ou schéma de ton layer symboles</em>
-      </p>
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">Y</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">U</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">I</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">O</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">P</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">H</div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">J</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⇧</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">K</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌃</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">L</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌥</span></div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-200 dark:bg-purple-800 text-[9px]">◆</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">N</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">M</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-[9px]">,;</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-[9px]">.:</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">/</div>
+    </div>
+    <div class="flex gap-1 mt-1">
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-purple-200 dark:bg-purple-800 text-[8px] leading-tight"><span>↵</span><span class="text-[6px] text-purple-600 dark:text-purple-300">SYM</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-orange-200 dark:bg-orange-800 text-[8px] leading-tight"><span>⌫</span><span class="text-[6px] text-orange-600 dark:text-orange-300">NUM</span></div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-600 text-[9px]">DEL</div>
     </div>
   </div>
 
-  <div>
-    <p class="font-semibold text-sm mb-2">Layer 2 — Navigation</p>
-    <div class="bg-gray-100 dark:bg-gray-800 rounded p-3 h-32 flex items-center justify-center">
-      <p class="text-gray-400 text-xs italic text-center">
-        ✏️ <em class="text-orange-400">Capture ou schéma de ton layer nav</em>
-      </p>
+</div>
+
+<div class="mt-4 flex justify-center gap-6 text-xs text-gray-400">
+  <span><span class="inline-block w-3 h-3 rounded bg-blue-200 dark:bg-blue-800 mr-1"></span>home row mod (tap = lettre, hold = modifier)</span>
+  <span><span class="inline-block w-3 h-3 rounded bg-green-200 dark:bg-green-800 mr-1"></span>layer NAV</span>
+  <span><span class="inline-block w-3 h-3 rounded bg-purple-200 dark:bg-purple-800 mr-1"></span>layer SYM / DIA</span>
+  <span><span class="inline-block w-3 h-3 rounded bg-orange-200 dark:bg-orange-800 mr-1"></span>layer NUM</span>
+</div>
+
+<!--
+Montrer sur le vrai clavier. Insister sur : les doigts ne bougent pas de la home row.
+-->
+
+---
+
+# Layer SYM — Symboles
+
+<div class="flex gap-8 justify-center mt-6 font-mono">
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">^</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">&lt;</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">&gt;</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">$</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">%</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">{</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌘</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">(</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌥</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">)</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌃</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">}</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⇧</span></div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">=</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">~</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">[</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">]</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">_</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">#</div>
+    </div>
+    <div class="flex gap-1 justify-end mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
     </div>
   </div>
 
-  <div class="flex flex-col justify-between">
-    <p class="font-semibold text-sm mb-2">Ce que j'ai appris</p>
-    <div class="bg-gray-100 dark:bg-gray-800 rounded p-3 h-32 flex flex-col justify-center gap-2 text-xs text-gray-400">
-      <!-- TODO: insights perso sur tes layers -->
-      <p>✏️ <em class="text-orange-400">Ce qui a bien marché dans tes layers</em></p>
-      <p>✏️ <em class="text-orange-400">Ce que tu as changé en cours de route</em></p>
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">@</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">&amp;</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">*</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">'</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">`</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">\</div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">+</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⇧</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">-</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌃</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">/</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌥</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">"</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌘</span></div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">|</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">!</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">;</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">:</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-100 dark:bg-purple-900 text-xs">?</div>
+    </div>
+    <div class="flex gap-1 mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-purple-300 dark:bg-purple-700 text-[8px]">↵</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="text-center text-xs text-gray-400 mt-4">▲ = transparent (pass-through vers layer base)</p>
+
+<!--
+"Les home row mods restent actifs sur SYM — je peux faire ⌘+= ou ⇧+{ sans déplacer les mains."
+-->
+
+---
+
+# Layer NAV / NUM — Navigation & Chiffres
+
+<div class="flex gap-8 justify-center mt-4 font-mono">
+
+  <div class="flex flex-col gap-1">
+    <p class="text-[10px] text-gray-400 text-center mb-1">← NAV (hold ⎵)</p>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[9px]">TAB</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[9px]">Home</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-xs">↑</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[9px]">End</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[9px]">PgUp</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[8px]">⌃A</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-200 dark:bg-green-800 text-xs font-bold">←</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-200 dark:bg-green-800 text-xs font-bold">↓</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-200 dark:bg-green-800 text-xs font-bold">→</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[9px]">PgDn</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[8px]">⌃Z</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[8px]">⌃X</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[8px]">⌃C</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[8px]">⌃V</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-100 dark:bg-green-900 text-[8px]">⇧TAB</div>
+    </div>
+    <div class="flex gap-1 justify-end mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-green-300 dark:bg-green-700 text-[8px]">⎵</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-1">
+    <p class="text-[10px] text-gray-400 text-center mb-1">NUM (hold ⌫) →</p>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs">/</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs font-bold">7</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs font-bold">8</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs font-bold">9</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs">-</div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">4</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⇧</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">5</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌃</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">6</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌥</span></div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] leading-tight"><span class="font-bold">0</span><span class="text-[7px] text-blue-600 dark:text-blue-300">⌘</span></div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs">,</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs font-bold">1</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs font-bold">2</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs font-bold">3</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-100 dark:bg-orange-900 text-xs">.</div>
+    </div>
+    <div class="flex gap-1 mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-orange-300 dark:bg-orange-700 text-[8px]">⌫</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
     </div>
   </div>
 
 </div>
 
 <!--
-Montrer ses vrais layers, c'est le moment le plus concret du talk.
-Expliquer la logique : pourquoi cette touche là, pourquoi ce layer s'active comme ça.
-Si possible, démo live sur le clavier.
+"NAV à gauche pour les déplacements, NUM à droite style pavé numérique. Les deux s'activent depuis le pouce — jamais besoin de regarder le clavier."
+-->
+
+---
+
+# Layer ADJUST — Bluetooth & Médias
+
+<div class="flex gap-8 justify-center mt-6 font-mono">
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">BT 0</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">BT 1</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">BT 2</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">BT 3</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">BT 4</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">OUT</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">⬅🖥</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">⊞</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">🖥➡</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-red-200 dark:bg-red-900 text-[8px]">⚡</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-red-200 dark:bg-red-900 text-[8px]">↺</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">🖼</div>
+    </div>
+    <div class="flex gap-1 justify-end mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs">🔇</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs">⏯</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs">🔉</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs">🔊</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[8px]">⏮⏭</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-[7px]">Teams 🔇</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-red-200 dark:bg-red-900 text-[8px]">↺</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-red-200 dark:bg-red-900 text-[8px]">⚡</div>
+    </div>
+    <div class="flex gap-1 mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="text-center text-xs text-gray-400 mt-3"><span class="text-red-400">⚡ = bootloader (flash firmware)</span> · <span class="text-red-400">↺ = reset</span> · BT 0–4 = profils Bluetooth</p>
+
+<!--
+"ADJUST s'active en maintenant les deux layer-keys simultanément. Bluetooth pour switcher entre appareils, ⚡ pour reflasher le firmware."
+-->
+
+---
+
+# Layer DIA — Diacritiques français
+
+<div class="flex gap-8 justify-center mt-6 font-mono">
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">é</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">è</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">à</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ê</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-500 text-[9px]">⇧</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">â</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ç</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1 justify-end mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ù</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-[10px] leading-tight"><span class="font-bold">û</span><span class="text-[7px] text-blue-500">⇧</span></div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">î</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ô</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1 mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="text-center text-xs text-gray-400 mt-3">Activé via la touche ◆ (sticky) — une pression suffit, le layer reste actif pour la prochaine touche.</p>
+
+<!--
+"Le layer DIA, c'est ce qui me permet d'écrire en français sans changer de layout. Sticky layer = je presse ◆ puis la lettre, le layer se désactive tout seul."
 -->
 
 ---
@@ -1255,6 +1606,24 @@ class: text-center
 <p class="mt-12 text-gray-400">Des questions ?</p>
 
 <!--
-Dernière slide. Lire lentement. Laisser le silence après "Des questions ?"
+Lire lentement. Laisser le silence après "Des questions ?"
 Avoir le clavier sous la main pour une démo si quelqu'un veut tester.
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# Références
+
+<div class="mt-8 space-y-4 text-left inline-block">
+  <div class="flex items-center gap-4">
+    <span class="text-gray-400 w-32 text-sm text-right shrink-0">Ma config ZMK</span>
+    <a href="https://github.com/vvision/zmk-config" class="font-mono text-blue-400 hover:underline">github.com/vvision/zmk-config</a>
+  </div>
+</div>
+
+<!--
+Laisser ce slide affiché pendant les échanges.
 -->
