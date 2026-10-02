@@ -12,7 +12,7 @@ layout: cover
 
 # Reprogrammer son clavier
 
-<p class="text-xl text-gray-400 mt-4">Du QWERTY au split : ergonomie et assemblage</p>
+<p class="text-xl text-gray-400 mt-4">D'AZERTY au split : ergonomie, configuration et assemblage</p>
 
 <div class="mt-12 text-sm text-gray-500">
   Victor Voisin · Jeudi 8 octobre 2026 · 12h15
