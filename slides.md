@@ -1142,8 +1142,15 @@ Ce que ça a changé concrètement au quotidien.
   </div>
 </div>
 
+<div class="mt-5 border-t border-gray-200 dark:border-gray-700 pt-4 text-xs text-gray-400 space-y-1">
+  <p class="font-semibold text-gray-500">Inspirations</p>
+  <p>Symboles & diacritiques : <a href="https://qwerty-lafayette.org/42" class="text-blue-400 hover:underline">QWERTY-Lafayette 42</a> et <a href="https://ergol.org/" class="text-blue-400 hover:underline">Ergol</a></p>
+  <p>Organisation du code : <a href="https://github.com/manna-harbour/miryoku_zmk" class="text-blue-400 hover:underline">Miryoku ZMK</a> — permet de builder le firmware pour différents claviers sans tout réécrire</p>
+</div>
+
 <!--
 "5 layers couvrent tout ce dont j'ai besoin — sans jamais déplacer les mains de la home row."
+"Le code s'inspire de Miryoku : les layers sont définis une fois, et je peux compiler pour n'importe quel clavier compatible ZMK."
 -->
 
 ---
@@ -1617,10 +1624,22 @@ class: text-center
 
 # Références
 
-<div class="mt-8 space-y-4 text-left inline-block">
+<div class="mt-8 space-y-3 text-left inline-block">
   <div class="flex items-center gap-4">
-    <span class="text-gray-400 w-32 text-sm text-right shrink-0">Ma config ZMK</span>
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">Ma config ZMK</span>
     <a href="https://github.com/vvision/zmk-config" class="font-mono text-blue-400 hover:underline">github.com/vvision/zmk-config</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">QWERTY-Lafayette 42</span>
+    <a href="https://qwerty-lafayette.org/42" class="font-mono text-blue-400 hover:underline">qwerty-lafayette.org/42</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">Ergol</span>
+    <a href="https://ergol.org/" class="font-mono text-blue-400 hover:underline">ergol.org</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">Miryoku ZMK</span>
+    <a href="https://github.com/manna-harbour/miryoku_zmk" class="font-mono text-blue-400 hover:underline">github.com/manna-harbour/miryoku_zmk</a>
   </div>
 </div>
 
