@@ -1573,6 +1573,203 @@ Montrer sur le vrai clavier. Insister sur : les doigts ne bougent pas de la home
 -->
 
 ---
+layout: center
+class: text-center
+---
+
+# Panorama : quelques claviers custom
+
+<p class="text-xl mt-4 text-gray-400">Du kit entrée de gamme à la commande sur-mesure.</p>
+
+<!--
+"Avant de passer à l'extrême absolu, un tour d'horizon de quelques claviers custom que vous pourrez rencontrer — ou commander."
+-->
+
+---
+layout: two-cols
+---
+
+# Cheapino
+
+<div class="pr-8 mt-4 space-y-4 text-sm">
+  <div class="flex gap-2 flex-wrap">
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">36 touches</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">soudure</span>
+    <span class="px-2 py-0.5 rounded bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold">~30–50 €</span>
+  </div>
+  <p class="text-gray-400">PCB open source conçu par <strong class="text-white">tompi</strong>. On commande les fichiers Gerber chez JLCPCB, on soude, on assemble.</p>
+  <p class="text-gray-400">Le point d'entrée le plus accessible du split custom. Column stagger, 3 touches de pouce par main, firmware QMK.</p>
+  <p class="text-xs text-gray-500 mt-2">Idéal pour : tester le split sans budget, apprendre à souder.</p>
+</div>
+
+::right::
+
+<div class="flex items-center justify-center h-full">
+  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
+    <img src="./assets/showcase/cheapino.png" alt="Clavier Cheapino" class="h-110 rounded shadow object-contain" />
+  </div>
+</div>
+
+<!--
+"Le Cheapino, c'est le clavier custom le moins cher possible. On imprime le PCB pour quelques euros, on soude les composants — et on a un split column stagger fonctionnel pour moins de 50€ tout compris."
+-->
+
+---
+layout: two-cols
+---
+
+# Corne
+
+<div class="pr-8 mt-4 space-y-4 text-sm">
+  <div class="flex gap-2 flex-wrap">
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">42 touches</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire ou BLE</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">hotswap</span>
+    <span class="px-2 py-0.5 rounded bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold">80–150 €</span>
+  </div>
+  <p class="text-gray-400">Le <strong class="text-white">kit de référence</strong> du split custom. Column stagger, écran OLED optionnel, compatible MX et Choc.</p>
+  <p class="text-gray-400">Communauté massive, guides de build nombreux, firmware QMK et ZMK très bien supportés.</p>
+  <p class="text-xs text-gray-500 mt-2">Idéal pour : premier build sérieux, bonne balance entre accessibilité et fonctionnalités.</p>
+</div>
+
+::right::
+
+<div class="flex items-center justify-center h-full">
+  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
+      <img src="./assets/showcase/corne_halcyon.jpg" alt="Clavier Halcyon Corne" class="h-110 rounded shadow object-contain" />
+  </div>
+</div>
+
+<!--
+"Le Corne, c'est le clavier custom le plus populaire. Si vous cherchez un premier kit sérieux avec une communauté pour vous aider, c'est lui."
+-->
+
+---
+layout: two-cols
+---
+
+# Ferris Sweep
+
+<div class="pr-8 mt-4 space-y-4 text-sm">
+  <div class="flex gap-2 flex-wrap">
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">34 touches</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">Choc low profile</span>
+    <span class="px-2 py-0.5 rounded bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold">60–120 €</span>
+  </div>
+  <p class="text-gray-400">Conçu par <strong class="text-white">Pierre Chevalier</strong>. Minimalisme absolu : pas d'écran, pas de diode visible, pas de boîtier nécessaire.</p>
+  <p class="text-gray-400">Switches Choc uniquement — profil ultra-plat. 34 touches demandent une vraie discipline dans le layout logiciel.</p>
+  <p class="text-xs text-gray-500 mt-2">Idéal pour : les adeptes de la philosophie 1DH portée à son maximum.</p>
+</div>
+
+::right::
+
+<div class="flex items-center justify-center h-full">
+  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
+    <img src="./assets/showcase/aurora_sweep.jpg" alt="Clavier Aurora Sweep" class="h-110 rounded shadow object-contain" />
+  </div>
+</div>
+
+<!--
+"Le Ferris Sweep, c'est 34 touches. Deux de moins que le Corne. Chaque touche est réfléchie. C'est un clavier qui force à bien configurer ses layers — pas de béquille possible."
+-->
+
+---
+layout: two-cols
+---
+
+# ZSA Moonlander
+
+<div class="pr-8 mt-4 space-y-4 text-sm">
+  <div class="flex gap-2 flex-wrap">
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">72 touches</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">hotswap</span>
+    <span class="px-2 py-0.5 rounded bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 text-xs font-semibold">~365 $</span>
+  </div>
+  <p class="text-gray-400">Produit commercial de <strong class="text-white">ZSA</strong>. Configurateur Oryx en ligne, pas de compilation nécessaire, support client.</p>
+  <p class="text-gray-400">Row stagger léger, pouce cluster articulé, tenting réglable. Clé en main — de la boîte au bureau en une heure.</p>
+  <p class="text-xs text-gray-500 mt-2">Idéal pour : passer au split sans toucher à un terminal ni souder une seule fois.</p>
+</div>
+
+::right::
+
+<div class="flex items-center justify-center h-full">
+  <img src="./assets/showcase/zsa_moonlander.png" alt="Clavier ZSA Moonlander" class="h-110 rounded shadow object-contain" />
+</div>
+
+<!--
+"Le Moonlander, c'est le split pour ceux qui ne veulent pas bricoler. Plug and play, configurateur visuel, SAV. Le prix de la tranquillité."
+-->
+
+---
+layout: two-cols
+---
+
+# Charybdis
+
+<div class="pr-8 mt-4 space-y-4 text-sm">
+  <div class="flex gap-2 flex-wrap">
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">~40 touches</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">trackball intégré</span>
+    <span class="px-2 py-0.5 rounded bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 text-xs font-semibold">200–300 €</span>
+  </div>
+  <p class="text-gray-400">Par <strong class="text-white">Bastard Keyboards</strong>. La moitié droite embarque un trackball — la souris disparaît du bureau.</p>
+  <p class="text-gray-400">Column stagger, firmware QMK, boîtier imprimé 3D. Kit complet disponible, assemblage requis.</p>
+  <p class="text-xs text-gray-500 mt-2">Idéal pour : éliminer les allers-retours clavier → souris tout en gardant le split ergonomique.</p>
+</div>
+
+::right::
+
+<div class="flex items-center justify-center h-full">
+  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
+    <img src="./assets/showcase/charibdys.jpg" alt="Clavier Charybdis" class="h-110 rounded shadow object-contain" />
+  </div>
+</div>
+
+<!--
+"Le Charybdis pousse l'idée encore plus loin : pas seulement réduire les mouvements des doigts, mais aussi supprimer la souris. La main droite navigue sans quitter le clavier."
+-->
+
+---
+layout: two-cols
+---
+
+# Bayleaf
+
+<div class="pr-8 mt-4 space-y-4 text-sm">
+  <div class="flex gap-2 flex-wrap">
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">60% · ortholinéaire</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">sans-fil</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">ZMK Studio</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">aluminium CNC · 5 mm</span>
+  </div>
+  <p class="text-gray-400">Conçu par <strong class="text-white">Sebastian Graz</strong>. Un build custom avec l'ambition d'un produit commercial : boîtier aluminium usiné CNC, finitions soignées, 180g.</p>
+  <p class="text-gray-400">Switches Kailh PG1316S ultra-plats (épaisseur totale : 5 mm). Ortholinéaire sans stagger — pour le look du rectangle parfait.</p>
+  <p class="text-xs text-gray-500 mt-2">Form over function assumé — la preuve qu'un clavier custom peut ressembler à un produit studio.</p>
+</div>
+
+::right::
+
+<div class="flex items-center justify-center h-full">
+  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
+    <img src="./assets/showcase/bayleaf.png" alt="Clavier Bayleaf" class="h-110 rounded shadow object-contain" />
+  </div>
+</div>
+
+<!--
+"Le Bayleaf, c'est l'anti-thèse du clavier ergonomique classique — son auteur le dit lui-même, c'est du form over function. Mais c'est aussi la preuve qu'un build custom peut avoir une finition digne d'un produit commercial."
+-->
+
+---
 layout: two-cols
 ---
 
@@ -1603,7 +1800,7 @@ layout: two-cols
 
 <div class="flex items-center justify-center h-full">
   <div class="h-64 w-64 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 Svalboard
+    <img src="./assets/showcase/svalboard.png" alt="Clavier Svalboard" class="h-110 rounded shadow object-contain" />
   </div>
 </div>
 
