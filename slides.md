@@ -1285,6 +1285,78 @@ Montrer sur le vrai clavier. Insister sur : les doigts ne bougent pas de la home
 
 ---
 
+# Layer DIA — Diacritiques français
+
+<div class="flex gap-8 justify-center mt-6 font-mono">
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">é</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">è</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">à</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ê</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-500 text-[9px]">⇧</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">â</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ç</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1 justify-end mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ù</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-[10px] leading-tight"><span class="font-bold">û</span><span class="text-[7px] text-blue-500">⇧</span></div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">î</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ô</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1 mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="text-center text-xs text-gray-400 mt-3">Activé via la touche ◆ (sticky) — une pression suffit, le layer reste actif pour la prochaine touche.</p>
+
+<!--
+"Le layer DIA, c'est ce qui me permet d'écrire en français sans changer de layout. Sticky layer = je presse ◆ puis la lettre, le layer se désactive tout seul."
+-->
+
+---
+
 # Layer SYM — Symboles
 
 <div class="flex gap-8 justify-center mt-6 font-mono">
@@ -1500,78 +1572,6 @@ Montrer sur le vrai clavier. Insister sur : les doigts ne bougent pas de la home
 -->
 
 ---
-
-# Layer DIA — Diacritiques français
-
-<div class="flex gap-8 justify-center mt-6 font-mono">
-
-  <div class="flex flex-col gap-1">
-    <div class="flex gap-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">é</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">è</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-    </div>
-    <div class="flex gap-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">à</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ê</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-500 text-[9px]">⇧</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-    </div>
-    <div class="flex gap-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">â</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ç</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-    </div>
-    <div class="flex gap-1 justify-end mt-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
-    </div>
-  </div>
-
-  <div class="flex flex-col gap-1">
-    <div class="flex gap-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ù</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-    </div>
-    <div class="flex gap-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-[10px] leading-tight"><span class="font-bold">û</span><span class="text-[7px] text-blue-500">⇧</span></div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">î</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 text-xs font-bold">ô</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-    </div>
-    <div class="flex gap-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
-    </div>
-    <div class="flex gap-1 mt-1">
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
-    </div>
-  </div>
-
-</div>
-
-<p class="text-center text-xs text-gray-400 mt-3">Activé via la touche ◆ (sticky) — une pression suffit, le layer reste actif pour la prochaine touche.</p>
-
-<!--
-"Le layer DIA, c'est ce qui me permet d'écrire en français sans changer de layout. Sticky layer = je presse ◆ puis la lettre, le layer se désactive tout seul."
--->
-
----
 layout: two-cols
 ---
 
@@ -1607,43 +1607,7 @@ layout: two-cols
 </div>
 
 <!--
-"Quand je montre ça à des gens qui n'ont jamais entendu parler de claviers custom, ils pensent que je plaisante. C'est pourtant la conclusion naturelle de tout ce qu'on a vu."
-"Je ne vous dis pas de vous en acheter un. Je vous dis que ça existe, que ça marche, et que ça illustre à quel point on peut aller loin quand on prend l'ergonomie au sérieux."
--->
 
----
-layout: center
-class: text-center
----
-
-# Commencer petit.
-
-<p class="text-xl mt-4 text-gray-400">Vous n'avez pas besoin d'un split 42 touches dès le premier jour.</p>
-
-<div class="mt-6 flex justify-center gap-4 flex-wrap">
-  <div class="px-5 py-3 bg-gray-100 dark:bg-gray-800 rounded-lg text-sm">
-    <p class="font-semibold">Étape 1</p>
-    <p class="text-gray-400">Un bon clavier mécanique TKL</p>
-  </div>
-  <div class="text-gray-400 self-center text-xl">→</div>
-  <div class="px-5 py-3 bg-blue-50 dark:bg-blue-900 rounded-lg text-sm">
-    <p class="font-semibold">Étape 2</p>
-    <p class="text-gray-400">Un kit ortholinéaire (Planck)</p>
-  </div>
-  <div class="text-gray-400 self-center text-xl">→</div>
-  <div class="px-5 py-3 bg-green-50 dark:bg-green-900 rounded-lg text-sm">
-    <p class="font-semibold">Étape 3</p>
-    <p class="text-gray-400">Un split column stagger</p>
-  </div>
-  <div class="text-gray-400 self-center text-xl">→</div>
-  <div class="px-5 py-3 bg-purple-50 dark:bg-purple-900 rounded-lg text-sm">
-    <p class="font-semibold">???</p>
-    <p class="text-gray-400">La Svalboard 🙃</p>
-  </div>
-</div>
-
-<!--
-Slide avant-dernière. Transition vers le message de clôture.
 -->
 
 ---
