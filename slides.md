@@ -1189,6 +1189,11 @@ Ce que ça a changé concrètement au quotidien.
     <span class="w-40 font-mono text-xs text-gray-500 shrink-0">SYM + NAV simultanés</span>
     <span class="text-gray-400">Bluetooth, médias, flash firmware</span>
   </div>
+  <div class="flex items-center gap-4 p-2 rounded bg-yellow-50 dark:bg-yellow-900">
+    <span class="w-32 font-semibold shrink-0">FUN</span>
+    <span class="w-40 font-mono text-xs text-gray-500 shrink-0">C + , simultanés</span>
+    <span class="text-gray-400">Touches de fonction F1–F12 + modifiers à gauche</span>
+  </div>
   <div class="flex items-center gap-4 p-2 rounded bg-blue-50 dark:bg-blue-900">
     <span class="w-32 font-semibold shrink-0">DIA</span>
     <span class="w-40 font-mono text-xs text-gray-500 shrink-0">sticky layer ◆</span>
@@ -1570,6 +1575,84 @@ Montrer sur le vrai clavier. Insister sur : les doigts ne bougent pas de la home
 
 <!--
 "ADJUST s'active en maintenant les deux layer-keys simultanément. Bluetooth pour switcher entre appareils, ⚡ pour reflasher le firmware."
+-->
+
+---
+
+# Layer FUN — Touches de fonction
+
+<div class="flex gap-8 justify-center mt-6 font-mono">
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] font-bold">⌘</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] font-bold">⌥</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] font-bold">⌃</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-blue-200 dark:bg-blue-800 text-[10px] font-bold">⇧</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+    </div>
+    <div class="flex gap-1 justify-end mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-500 text-[7px]">BASE</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-1">
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F7</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F8</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F9</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-200 dark:bg-yellow-800 text-xs font-bold">F12</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-30">·</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F4</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F5</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F6</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-200 dark:bg-yellow-800 text-xs font-bold">F11</div>
+    </div>
+    <div class="flex gap-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-500 text-[8px]">☰</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F1</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F2</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-100 dark:bg-yellow-900 text-xs font-bold">F3</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-yellow-200 dark:bg-yellow-800 text-xs font-bold">F10</div>
+    </div>
+    <div class="flex gap-1 mt-1">
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-300 dark:bg-gray-500 text-[7px]">BASE</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-600 text-[8px] opacity-40">▲</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-4 flex justify-center gap-6 text-xs text-gray-400">
+  <span><span class="inline-block w-3 h-3 rounded bg-blue-200 dark:bg-blue-800 mr-1"></span>modifiers (hold)</span>
+  <span><span class="inline-block w-3 h-3 rounded bg-yellow-100 dark:bg-yellow-900 mr-1"></span>F1–F9</span>
+  <span><span class="inline-block w-3 h-3 rounded bg-yellow-200 dark:bg-yellow-800 mr-1"></span>F10–F12</span>
+  <span>☰ = menu contextuel (K_APP)</span>
+  <span class="ml-4 text-gray-500">Activé via combo <kbd class="px-1 bg-gray-200 dark:bg-gray-700 rounded">C</kbd> + <kbd class="px-1 bg-gray-200 dark:bg-gray-700 rounded">,</kbd></span>
+</div>
+
+<!--
+"Le layer FUN s'active en appuyant simultanément sur C et virgule — un combo sur les deux mains. F-keys disposées en pavé 3×4 sur la droite, modifiers disponibles à gauche pour faire ⇧+F5, ⌃+F4, etc. sans déplacer les mains."
 -->
 
 ---
