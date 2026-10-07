@@ -773,6 +773,7 @@ class: text-center
       <div class="flex items-start gap-3 p-3 rounded bg-gray-100 dark:bg-gray-800 text-sm">
         <span class="font-mono text-green-500 font-bold shrink-0">~100 €</span>
         <span class="text-gray-400">Kit basique, switches d'entrée de gamme. Bon pour tester.</span>
+        <span class="">(<a href="https://tompi.github.io/cheapino/">cheapino</a>)</span>
       </div>
       <div class="flex items-start gap-3 p-3 rounded bg-gray-100 dark:bg-gray-800 text-sm">
         <span class="font-mono text-yellow-500 font-bold shrink-0">200–300 €</span>
