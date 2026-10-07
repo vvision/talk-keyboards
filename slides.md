@@ -5,16 +5,18 @@ author: Victor Voisin
 highlighter: shiki
 transition: slide-left
 mdc: true
+layout: cover
+class: text-white
 ---
 
-layout: cover
----
+<img src="./assets/steampunk_kb_sxb.jpeg" alt="" class="absolute inset-0 w-full h-full object-cover -z-10" />
+<div class="absolute inset-0 bg-black/60 -z-10" />
 
 # Reprogrammer son clavier
 
-<p class="text-xl text-gray-400 mt-4">D'AZERTY au split : ergonomie, configuration et assemblage</p>
+<div class="text-xl text-white/85 mt-4">D'AZERTY au split : ergonomie, configuration et assemblage</div>
 
-<div class="mt-12 text-sm text-gray-500">
+<div class="mt-12 text-sm text-white/70">
   Victor Voisin · Jeudi 8 octobre 2026 · 12h15
 </div>
 
@@ -27,9 +29,7 @@ Laisser le titre respirer. Ne pas commencer à parler tout de suite.
 # Vous connaissez tous ça.
 
 <div class="flex gap-8 items-center justify-center mt-8">
-  <div class="h-40 w-80 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 clavier standard membrane
-  </div>
+  <img src="./assets/logitech_k120.webp" alt="Clavier Logitech K120" class="h-100 rounded shadow object-contain" />
 </div>
 
 <!--
@@ -42,12 +42,7 @@ Commencer en silence. Laisser l'image parler.
 # Et peut-être ça aussi.
 
 <div class="flex gap-8 items-center justify-center mt-8">
-  <div class="h-40 w-64 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 clavier gamer
-  </div>
-  <div class="h-40 w-64 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 clavier gamer RGB extrême
-  </div>
+  <img src="./assets/corsair_k68.webp" alt="Clavier Corsair K68" class="h-110 rounded shadow object-contain" />
 </div>
 
 <!--
@@ -59,9 +54,7 @@ Demander à la salle: "Y'a des gamers parmi nous ?"
 # Et les plus anciens se souviendront...
 
 <div class="flex gap-8 items-center justify-center mt-8">
-  <div class="h-48 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 connecteur PS/2 vert
-  </div>
+  <img src="./assets/ps2_port.jpg" alt="Clavier Corsair K68" class="h-80 rounded shadow object-contain" />
 </div>
 
 <p class="text-center text-gray-400 mt-4 text-sm">La prise verte. La prise violette. Le bon vieux PS/2.</p>
@@ -402,7 +395,7 @@ layout: two-cols
 
 # Dispositions physiques : 4 familles
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="grid grid-cols-2 gap-4 row-gap-4 mt-6">
 
   <div>
     <p class="font-semibold mb-2">Row staggered <span class="text-gray-400 text-sm font-normal">— l'héritage</span></p>
@@ -462,19 +455,20 @@ layout: two-cols
     <div class="font-mono text-xs leading-relaxed bg-gray-100 dark:bg-gray-800 rounded p-3 flex gap-3">
       <div>
         <div class="flex gap-1">
-          <span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">Q</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">W</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">E</span>
+          <span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">Q</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">W</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">E</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">R</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">T</span>
         </div>
         <div class="flex gap-1 mt-1">
           <span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">A</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">S</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">D</span>
+<span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">F</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">G</span>
         </div>
       </div>
       <span class="text-gray-400 self-center">⟵ ⟶</span>
       <div>
         <div class="flex gap-1">
-          <span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">R</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">T</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">Y</span>
+          <span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">Y</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">U</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">I</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">O</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">P</span>
         </div>
         <div class="flex gap-1 mt-1">
-          <span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">F</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">G</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">H</span>
+          <span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">H</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">J</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">K</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">L</span><span class="bg-purple-300 dark:bg-purple-700 px-1.5 py-1 rounded">/</span>
         </div>
       </div>
     </div>
@@ -497,7 +491,7 @@ class: text-center
 <div class="mt-8 flex justify-center gap-16 items-start">
   <div class="flex flex-col items-center gap-2">
     <div class="h-52 w-44 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-      📷 main posée à plat — longueur relative des doigts
+        <img src="./assets/etude_main_de_vinci.jpg" alt="Etude des mains - Léonard De Vinci" class="h-100 rounded shadow object-contain" />
     </div>
     <p class="text-sm text-gray-400">L'auriculaire est plus court.<br>Le majeur est le plus long.</p>
   </div>
@@ -1057,7 +1051,66 @@ layout: two-cols
 
 <!--
 "Le debug d'un clavier custom, c'est très accessible. La plupart des problèmes sont mécaniques — une mauvaise soudure ou un socket mal clipé — pas logiciels."
-Transition : "Maintenant la partie la plus perso : mon setup, ce que j'utilise vraiment au quotidien."
+Transition : "Le clavier est prêt. Mais il reste une chose à apprendre : comment s'en servir correctement."
+-->
+
+---
+layout: two-cols
+---
+
+# La dactylographie
+
+<div class="pr-8 mt-4 space-y-4 text-sm">
+  <p class="text-gray-400">Taper sans regarder le clavier, chaque doigt responsable de sa zone — c'est la dactylographie. Sans ça, un clavier ergonomique ne sert à rien.</p>
+
+  <div>
+    <p class="font-semibold">La position de base</p>
+    <div class="font-mono text-xs bg-gray-100 dark:bg-gray-800 rounded p-3 mt-1 space-y-1">
+      <p class="text-gray-400">Main gauche : <span class="text-white">A S D F</span> (index sur F)</p>
+      <p class="text-gray-400">Main droite : <span class="text-white">J K L ;</span> (index sur J)</p>
+      <p class="text-gray-400 mt-1">Pouces sur la barre espace.</p>
+      <p class="text-gray-400">Les repères tactiles (bump) sur F et J.</p>
+    </div>
+  </div>
+
+  <div>
+    <p class="font-semibold">Comment progresser</p>
+    <ul class="text-gray-400 space-y-1 mt-1">
+      <li><strong class="text-white">Précision avant vitesse</strong> — la vitesse vient avec la précision, pas l'inverse</li>
+      <li><strong class="text-white">Pratique délibérée</strong> — 15 min par jour valent mieux que 2h le week-end</li>
+      <li><strong class="text-white">Ne pas tricher</strong> — si on regarde le clavier, on ne progresse pas</li>
+      <li><strong class="text-white">Accepter la régression</strong> — changer de layout fait temporairement baisser la vitesse</li>
+    </ul>
+  </div>
+</div>
+
+::right::
+
+<div class="flex flex-col justify-center h-full gap-4 pl-4">
+  <p class="font-semibold text-sm">Ressources</p>
+  <div class="space-y-3 text-sm">
+    <div>
+      <a href="https://www.typingclub.com/sportal/program-1.game" class="text-blue-400 hover:underline font-semibold">Typing Club</a>
+      <p class="text-xs text-gray-400 mt-0.5">Basics → Jungle. Progression guidée, adapté aux débutants et aux changements de layout.</p>
+    </div>
+    <div>
+      <a href="https://www.typing.com/student/lessons" class="text-blue-400 hover:underline font-semibold">typing.com</a>
+      <p class="text-xs text-gray-400 mt-0.5">Leçons structurées, suivi de la progression, gratuit.</p>
+    </div>
+    <div>
+      <a href="https://www.keybr.com/" class="text-blue-400 hover:underline font-semibold">keybr.com</a>
+      <p class="text-xs text-gray-400 mt-0.5">Génère des exercices ciblés sur les touches les moins maîtrisées. Idéal pour ancrer un nouveau layout.</p>
+    </div>
+    <div>
+      <a href="https://monkeytype.com/" class="text-blue-400 hover:underline font-semibold">monkeytype.com</a>
+      <p class="text-xs text-gray-400 mt-0.5">Test de vitesse / précision, très configurable. Bon baromètre de progression.</p>
+    </div>
+  </div>
+</div>
+
+<!--
+"Un clavier ergonomique sans dactylographie, c'est une voiture de sport avec un conducteur qui regarde ses pieds pour changer de vitesse."
+"keybr est particulièrement utile quand on change de layout — il identifie les lettres qui bloquent et génère des exercices ciblés dessus."
 -->
 
 ---
@@ -1208,7 +1261,7 @@ Ce que ça a changé concrètement au quotidien.
       <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">M</div>
       <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-[9px]">,;</div>
       <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-[9px]">.:</div>
-      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">/</div>
+      <div class="w-8 h-8 flex items-center justify-center rounded bg-gray-200 dark:bg-gray-700 text-xs">/?</div>
     </div>
     <div class="flex gap-1 mt-1">
       <div class="w-8 h-8 flex flex-col items-center justify-center rounded bg-purple-200 dark:bg-purple-800 text-[8px] leading-tight"><span>↵</span><span class="text-[6px] text-purple-600 dark:text-purple-300">SYM</span></div>
@@ -1640,6 +1693,22 @@ class: text-center
   <div class="flex items-center gap-4">
     <span class="text-gray-400 w-40 text-sm text-right shrink-0">Miryoku ZMK</span>
     <a href="https://github.com/manna-harbour/miryoku_zmk" class="font-mono text-blue-400 hover:underline">github.com/manna-harbour/miryoku_zmk</a>
+  </div>
+  <div class="flex items-center gap-4 pt-2 mt-1 border-t border-gray-200 dark:border-gray-700">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">Typing Club</span>
+    <a href="https://www.typingclub.com/sportal/program-1.game" class="font-mono text-blue-400 hover:underline">typingclub.com</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">typing.com</span>
+    <a href="https://www.typing.com/student/lessons" class="font-mono text-blue-400 hover:underline">typing.com</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">keybr</span>
+    <a href="https://www.keybr.com/" class="font-mono text-blue-400 hover:underline">keybr.com</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">monkeytype</span>
+    <a href="https://monkeytype.com/" class="font-mono text-blue-400 hover:underline">monkeytype.com</a>
   </div>
 </div>
 
