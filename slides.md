@@ -1607,9 +1607,7 @@ layout: two-cols
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    <img src="./assets/showcase/cheapino.png" alt="Clavier Cheapino" class="h-110 rounded shadow object-contain" />
-  </div>
+  <img src="./assets/showcase/cheapino.png" alt="Clavier Cheapino" class="max-h-full w-full rounded shadow object-contain" />
 </div>
 
 <!--
@@ -1638,9 +1636,7 @@ layout: two-cols
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-      <img src="./assets/showcase/corne_halcyon.jpg" alt="Clavier Halcyon Corne" class="h-110 rounded shadow object-contain" />
-  </div>
+  <img src="./assets/showcase/corne_halcyon.jpg" alt="Clavier Halcyon Corne" class="max-h-full w-full rounded shadow object-contain" />
 </div>
 
 <!--
@@ -1669,9 +1665,7 @@ layout: two-cols
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    <img src="./assets/showcase/aurora_sweep.jpg" alt="Clavier Aurora Sweep" class="h-110 rounded shadow object-contain" />
-  </div>
+  <img src="./assets/showcase/aurora_sweep.jpg" alt="Clavier Aurora Sweep" class="max-h-full w-full rounded shadow object-contain" />
 </div>
 
 <!--
@@ -1729,9 +1723,7 @@ layout: two-cols
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    <img src="./assets/showcase/charibdys.jpg" alt="Clavier Charybdis" class="h-110 rounded shadow object-contain" />
-  </div>
+  <img src="./assets/showcase/charibdys.jpg" alt="Clavier Charybdis" class="max-h-full w-full rounded shadow object-contain" />
 </div>
 
 <!--
@@ -1760,9 +1752,7 @@ layout: two-cols
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    <img src="./assets/showcase/bayleaf.png" alt="Clavier Bayleaf" class="h-110 rounded shadow object-contain" />
-  </div>
+  <img src="./assets/showcase/bayleaf.png" alt="Clavier Bayleaf" class="max-h-full w-full rounded shadow object-contain" />
 </div>
 
 <!--
@@ -1799,9 +1789,7 @@ layout: two-cols
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <div class="h-64 w-64 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    <img src="./assets/showcase/svalboard.png" alt="Clavier Svalboard" class="h-110 rounded shadow object-contain" />
-  </div>
+  <img src="./assets/showcase/svalboard.png" alt="Clavier Svalboard" class="h-110 rounded shadow object-contain" />
 </div>
 
 <!--
