@@ -29,8 +29,7 @@ class: text-white
 </div>
 
 <!--
-Commencer en silence. Laisser l'image parler.
-"Vous avez tous ça sur votre bureau, ou quelque chose qui y ressemble."
+
 -->
 
 ---
@@ -56,8 +55,7 @@ Demander à la salle: "Y'a des gamers parmi nous ?"
 <p class="text-center text-gray-400 mt-4 text-sm">La prise verte. La prise violette. Le bon vieux PS/2.</p>
 
 <!--
-Pause nostalgie. Laisser les gens sourire.
-"C'est l'outil qu'on utilise 8h par jour, qu'on ne choisit presque jamais, et auquel on ne pense jamais."
+
 -->
 
 ---
@@ -80,8 +78,7 @@ class: text-center
 </p>
 
 <!--
-Transition vers la section suivante.
-"On va voir pourquoi ça mérite qu'on s'y intéresse — et ce qu'on peut faire."
+
 -->
 
 ---
@@ -800,7 +797,7 @@ class: text-center
 </div>
 
 <!--
-"Le sans-fil, c'est tentant — mais pour un premier build, le filaire simplifie beaucoup le debug. On peut toujours switcher le controller plus tard."
+
 -->
 
 ---
@@ -860,7 +857,7 @@ class: text-center
 </div>
 
 <!--
-"Pour un premier build : kit + hotswap. C'est la combinaison la plus forgiving — si un switch ne te plaît pas, tu le changes en 2 secondes."
+
 -->
 
 ---
@@ -920,8 +917,7 @@ class: text-center
 </div>
 
 <!--
-"L'acoustique, les gens n'y pensent pas au début — et puis ils reçoivent leurs Kailh Blue et leurs collègues les détestent."
-Transition : "Maintenant qu'on a tout choisi sur le papier, on construit comment ?"
+
 -->
 
 ---
@@ -1093,8 +1089,7 @@ layout: two-cols
 </div>
 
 <!--
-"Un clavier ergonomique sans dactylographie, c'est une voiture de sport avec un conducteur qui regarde ses pieds pour changer de vitesse."
-"keybr est particulièrement utile quand on change de layout — il identifie les lettres qui bloquent et génère des exercices ciblés dessus."
+
 -->
 
 ---
@@ -1251,7 +1246,7 @@ layout: two-cols
 </div>
 
 <!--
-Montrer sur le vrai clavier. Insister sur : les doigts ne bougent pas de la home row.
+
 -->
 
 ---
