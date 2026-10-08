@@ -20,10 +20,6 @@ class: text-white
   Victor Voisin · Jeudi 8 octobre 2026 · 12h15
 </div>
 
-<!--
-Laisser le titre respirer. Ne pas commencer à parler tout de suite.
--->
-
 ---
 
 # Vous connaissez tous ça.
@@ -103,9 +99,7 @@ layout: two-cols
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <div class="h-56 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 machine à écrire Sholes & Glidden 1873
-  </div>
+  <img src="./assets/sholes_typewriter.jpg" alt="Machine à écrire Sholes" class="h-80 rounded shadow object-contain" />
 </div>
 
 <!--
@@ -118,16 +112,12 @@ layout: two-cols
 
 <div class="flex gap-10 items-center justify-center mt-6">
   <div class="flex flex-col items-center gap-3">
-    <div class="h-44 w-64 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-      📷 vue de dessous machine à écrire — tiges des marteaux
-    </div>
+    <img src="./assets/typebars.jpg" alt="Machine à écrire - Tiges des marteaux" class="h-80 rounded shadow object-contain" />
     <p class="text-sm text-gray-400">Les tiges s'entrecroisent en diagonale</p>
   </div>
   <div class="text-4xl text-gray-300">→</div>
   <div class="flex flex-col items-center gap-3">
-    <div class="h-44 w-64 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-      📷 clavier moderne — rangées décalées
-    </div>
+    <img src="./assets/keyboard_row_stagger.jpg" alt="Clavier moderne — rangées décalées" class="h-80 rounded shadow object-contain" />
     <p class="text-sm text-gray-400">On a gardé le décalage... sans les tiges</p>
   </div>
 </div>
@@ -262,7 +252,11 @@ class: text-center
   </div>
 </div>
 
-<p class="mt-6 text-sm text-gray-400">Moins de touches = moins de déplacement = mains qui restent en position.</p>
+<p class="mt-6 text-sm text-gray-400 text-center">Moins de touches = moins de déplacement = mains qui restent en position.</p>
+
+<div class="flex items-center gap-4">
+  <img src="./assets/keyboard_size_comparison.svg" alt="Clavier moderne — rangées décalées" class="h-40 rounded shadow object-contain" style="width: 100%" />
+</div>
 
 <!--
 "On croit souvent qu'on a besoin de toutes ces touches. En pratique, avec des layers, 42 touches couvrent tout — et les mains bougent beaucoup moins."
@@ -297,12 +291,11 @@ layout: two-cols
 ::right::
 
 <div class="flex flex-col gap-4 items-center justify-center h-full">
-  <div class="h-36 w-56 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 switch MX en coupe
-  </div>
-  <div class="h-36 w-56 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 switch Choc low profile
-  </div>
+  <img src="./assets/keyboard_membrane.png" alt="Switch Choc low profile" class="h-20 rounded shadow object-contain"/>
+
+  <video autoplay loop src="./assets/cherry_mx_blue.mp4" class="h-45 rounded shadow object-contain"></video>
+
+  <img src="./assets/kailh_choc_v2_switch.jpeg" alt="Switch Choc low profile" class="h-45 rounded shadow object-contain"/>
 </div>
 
 <!--
@@ -332,14 +325,14 @@ layout: two-cols
     </ul>
   </div>
   <p class="text-sm text-gray-400 mt-2">Le profil uniforme (DSA/XDA) est souvent préféré en split et ortholinéaire — toutes les touches sont interchangeables.</p>
+  <p class="text-sm text-gray-400 mt-2"><a>Keycaps.info Web App</a></p>
 </div>
 
 ::right::
 
-<div class="flex items-center justify-center h-full">
-  <div class="h-64 w-56 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 comparaison profils keycaps SA / DSA / Cherry
-  </div>
+<div class="flex flex-col gap-4 items-center justify-center h-full">
+  <img src="./assets/keycap-profile.png" alt="Keycap profile" class="h-60 rounded shadow object-contain"/>
+  <img src="./assets/keycap-profiles.png" alt="Keycap profiles" class="h-40 rounded shadow object-contain"/>
 </div>
 
 <!--
@@ -375,9 +368,7 @@ layout: two-cols
 ::right::
 
 <div class="flex flex-col gap-4 items-center justify-center h-full">
-  <div class="h-36 w-56 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 nice!nano ou Pro Micro
-  </div>
+  <img src="./assets/elite_c.webp" alt="Elite C Controller" class="h-60 rounded shadow object-contain"/>
   <div class="font-mono text-xs text-gray-400 bg-gray-100 dark:bg-gray-800 rounded p-3 w-56">
     <p>// QMK keymap.c</p>
     <p>LAYOUT(</p>
@@ -490,16 +481,12 @@ class: text-center
 
 <div class="mt-8 flex justify-center gap-16 items-start">
   <div class="flex flex-col items-center gap-2">
-    <div class="h-52 w-44 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-        <img src="./assets/etude_main_de_vinci.jpg" alt="Etude des mains - Léonard De Vinci" class="h-100 rounded shadow object-contain" />
-    </div>
+    <img src="./assets/etude_main_de_vinci.jpg" alt="Etude des mains - Léonard De Vinci" class="h-100 rounded shadow object-contain" />
     <p class="text-sm text-gray-400">L'auriculaire est plus court.<br>Le majeur est le plus long.</p>
   </div>
   <div class="text-4xl text-gray-300 self-center">→</div>
   <div class="flex flex-col items-center gap-2">
-    <div class="h-52 w-44 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-      📷 Corne / Kyria — column stagger visible
-    </div>
+    <img src="./assets/halcyon_ferris.webp" alt="Halcyon Ferris" class="h-100 rounded shadow object-contain" />
     <p class="text-sm text-gray-400">Les colonnes suivent<br>la longueur naturelle des doigts.</p>
   </div>
 </div>
@@ -532,12 +519,7 @@ layout: two-cols
 ::right::
 
 <div class="flex flex-col gap-4 items-center justify-center h-full">
-  <div class="h-40 w-56 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 clavier monobloc — pronation forcée
-  </div>
-  <div class="h-40 w-56 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 split en tenting — poignets neutres
-  </div>
+  <img src="./assets/pronation.jpg" alt="Main en pronation" class="h-100 rounded shadow object-contain" />
 </div>
 
 <!--
@@ -559,7 +541,7 @@ Transition : "Une fois qu'on a le bon clavier physiquement, on peut s'attaquer a
     <span class="text-sm text-gray-400">Années 1930–2000. Optimisés pour minimiser les déplacements (anglais / français). Première génération d'alternatives sérieuses.</span>
   </div>
   <div class="flex items-center gap-4 p-3 rounded bg-blue-50 dark:bg-blue-900">
-    <span class="w-36 font-semibold text-sm shrink-0">Colemak-DH</span>
+    <span class="w-36 font-semibold text-sm shrink-0">Colemak / Colemak-DH</span>
     <span class="text-sm text-gray-400">Optimisé anglais, très populaire. Variante DH déplace D et H sur la home row, réduit les extensions latérales de l'index.</span>
   </div>
   <div class="flex items-center gap-4 p-3 rounded bg-blue-50 dark:bg-blue-900">
@@ -626,6 +608,78 @@ Transition : "Une fois qu'on a le bon clavier physiquement, on peut s'attaquer a
 -->
 
 ---
+
+# Layers et philosophie 1DH
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+
+  <div>
+    <p class="font-semibold mb-3">Les layers : des claviers virtuels empilés</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-gray-100 dark:bg-gray-800">
+        <span class="font-mono text-xs bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded w-16 text-center">Layer 0</span>
+        <span class="text-gray-400">Lettres — usage normal</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-blue-50 dark:bg-blue-900">
+        <span class="font-mono text-xs bg-blue-200 dark:bg-blue-800 px-2 py-1 rounded w-16 text-center">Layer 1</span>
+        <span class="text-gray-400">Chiffres, symboles</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-green-50 dark:bg-green-900">
+        <span class="font-mono text-xs bg-green-200 dark:bg-green-800 px-2 py-1 rounded w-16 text-center">Layer 2</span>
+        <span class="text-gray-400">Navigation (↑↓←→, PgUp…)</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-purple-50 dark:bg-purple-900">
+        <span class="font-mono text-xs bg-purple-200 dark:bg-purple-800 px-2 py-1 rounded w-16 text-center">Layer 3</span>
+        <span class="text-gray-400">Fonctions, raccourcis app</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-3">On active un layer en maintenant une touche (comme Fn sur un laptop).</p>
+  </div>
+
+  <div>
+    <p class="font-semibold mb-3">Philosophie 1DH</p>
+    <p class="text-sm text-gray-400 mb-3"><strong class="text-white">1 Distance de la Home row</strong> maximum. Aucun doigt ne s'étend à plus d'une touche de sa position de repos.</p>
+    <div class="font-mono text-xs bg-gray-100 dark:bg-gray-800 rounded p-3">
+      <div class="flex gap-1 justify-center">
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+      </div>
+      <div class="flex gap-1 justify-center mt-1">
+        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">H</span>
+        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">O</span>
+        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">M</span>
+        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">E</span>
+        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">R</span>
+        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">O</span>
+        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">W</span>
+      </div>
+      <div class="flex gap-1 justify-center mt-1">
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
+      </div>
+      <p class="text-center text-gray-400 mt-2 text-xs">Zone verte = home row<br>Zone jaune = 1DH max</p>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Ce principe justifie 36–42 touches : tout ce dont on a besoin tient dans cette zone, avec les layers.</p>
+  </div>
+
+</div>
+
+<!--
+"C'est la boucle qui ferme tout : peu de touches, layers pour tout atteindre, home row mods pour les modifiers. Les mains ne bougent presque plus."
+Transition vers la section suivante : "Maintenant qu'on sait quoi choisir, comment on construit ?"
+-->
+
+---
 layout: two-cols
 ---
 
@@ -674,79 +728,13 @@ layout: two-cols
 -->
 
 ---
-
-# Layers et philosophie 1DH
-
-<div class="grid grid-cols-2 gap-8 mt-4">
-
-  <div>
-    <p class="font-semibold mb-3">Les layers : des claviers virtuels empilés</p>
-    <div class="space-y-2 text-sm">
-      <div class="flex items-center gap-3 p-2 rounded bg-gray-100 dark:bg-gray-800">
-        <span class="font-mono text-xs bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded w-16 text-center">Layer 0</span>
-        <span class="text-gray-400">Lettres — usage normal</span>
-      </div>
-      <div class="flex items-center gap-3 p-2 rounded bg-blue-50 dark:bg-blue-900">
-        <span class="font-mono text-xs bg-blue-200 dark:bg-blue-800 px-2 py-1 rounded w-16 text-center">Layer 1</span>
-        <span class="text-gray-400">Chiffres, symboles</span>
-      </div>
-      <div class="flex items-center gap-3 p-2 rounded bg-green-50 dark:bg-green-900">
-        <span class="font-mono text-xs bg-green-200 dark:bg-green-800 px-2 py-1 rounded w-16 text-center">Layer 2</span>
-        <span class="text-gray-400">Navigation (↑↓←→, PgUp…)</span>
-      </div>
-      <div class="flex items-center gap-3 p-2 rounded bg-purple-50 dark:bg-purple-900">
-        <span class="font-mono text-xs bg-purple-200 dark:bg-purple-800 px-2 py-1 rounded w-16 text-center">Layer 3</span>
-        <span class="text-gray-400">Fonctions, raccourcis app</span>
-      </div>
-    </div>
-    <p class="text-xs text-gray-400 mt-3">On active un layer en maintenant une touche (comme Fn sur un laptop).</p>
-  </div>
-
-  <div>
-    <p class="font-semibold mb-3">Philosophie 1DH</p>
-    <p class="text-sm text-gray-400 mb-3"><strong class="text-white">1 Distance de la Home row</strong> maximum. Aucun doigt ne s'étend à plus d'une touche de sa position de repos.</p>
-    <div class="font-mono text-xs bg-gray-100 dark:bg-gray-800 rounded p-3">
-      <div class="flex gap-1 justify-center">
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-      </div>
-      <div class="flex gap-1 justify-center mt-1">
-        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">H</span>
-        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">O</span>
-        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">M</span>
-        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">E</span>
-        <span class="bg-green-300 dark:bg-green-700 px-1.5 py-1 rounded text-xs font-bold">R</span>
-      </div>
-      <div class="flex gap-1 justify-center mt-1">
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-        <span class="bg-yellow-200 dark:bg-yellow-800 px-1.5 py-1 rounded text-xs">•</span>
-      </div>
-      <p class="text-center text-gray-400 mt-2 text-xs">Zone verte = home row<br>Zone jaune = 1DH max</p>
-    </div>
-    <p class="text-xs text-gray-400 mt-2">Ce principe justifie 36–42 touches : tout ce dont on a besoin tient dans cette zone, avec les layers.</p>
-  </div>
-
-</div>
-
-<!--
-"C'est la boucle qui ferme tout : peu de touches, layers pour tout atteindre, home row mods pour les modifiers. Les mains ne bougent presque plus."
-Transition vers la section suivante : "Maintenant qu'on sait quoi choisir, comment on construit ?"
--->
-
----
 layout: center
 class: text-center
 ---
 
 # Construire son clavier : par où commencer ?
 
-<p class="text-xl mt-4 text-gray-400">Six questions à se poser, dans l'ordre.</p>
+<p class="text-xl mt-4 text-gray-400">Six questions à se poser.</p>
 
 <div class="mt-8 flex justify-center gap-3 flex-wrap">
   <span class="px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm font-semibold">💶 Budget</span>
@@ -758,7 +746,6 @@ class: text-center
 </div>
 
 <!--
-"Ces six questions se répondent dans l'ordre — chaque réponse réduit l'espace des choix suivants."
 -->
 
 ---
@@ -796,7 +783,7 @@ class: text-center
           <li>✅ Firmware QMK, très mature</li>
           <li>✅ Pas de batterie à gérer</li>
           <li>✅ Latence minimale</li>
-          <li>❌ Câble(s) sur le bureau</li>
+          <li>⚠️ Câble(s) sur le bureau</li>
         </ul>
       </div>
       <div class="p-3 rounded bg-blue-50 dark:bg-blue-900">
@@ -804,8 +791,7 @@ class: text-center
         <ul class="text-gray-400 mt-1 space-y-0.5">
           <li>✅ Bureau épuré, multi-device</li>
           <li>✅ Firmware ZMK, actif</li>
-          <li>❌ Batterie à charger (~mois)</li>
-          <li>❌ Légèrement plus complexe à flasher</li>
+          <li>⚠️ Batterie à charger (~mois)</li>
         </ul>
       </div>
     </div>
@@ -831,8 +817,8 @@ class: text-center
         <ul class="text-gray-400 mt-1 space-y-0.5">
           <li>✅ Plus de choix de switches</li>
           <li>✅ Connexion plus fiable long terme</li>
-          <li>❌ Irréversible sans dessouder</li>
-          <li>❌ Nécessite fer à souder + pratique</li>
+          <li>⚠️ Irréversible sans dessouder</li>
+          <li>⚠️ Nécessite fer à souder + pratique</li>
         </ul>
       </div>
       <div class="p-3 rounded bg-green-50 dark:bg-green-900">
@@ -841,7 +827,7 @@ class: text-center
           <li>✅ Switches remplaçables à la main</li>
           <li>✅ Idéal pour expérimenter</li>
           <li>✅ Recommandé pour un premier build</li>
-          <li>❌ Légèrement plus fragile si mal manipulé</li>
+          <li>⚠️ Légèrement plus fragile si mal manipulé</li>
         </ul>
       </div>
     </div>
@@ -864,8 +850,8 @@ class: text-center
         <ul class="text-gray-400 mt-1 space-y-0.5">
           <li>✅ Liberté totale (KiCad + EasyEDA)</li>
           <li>✅ Fabriquer chez JLCPCB, PCBWay</li>
-          <li>❌ Requiert des bases en électronique</li>
-          <li>❌ Plusieurs itérations avant d'être satisfait</li>
+          <li>⚠️ Requiert des bases en électronique</li>
+          <li>⚠️ Plusieurs itérations avant d'être satisfait</li>
         </ul>
       </div>
     </div>
@@ -1017,12 +1003,12 @@ layout: two-cols
 <div class="pr-8 mt-4 space-y-4">
   <div>
     <p class="font-semibold">Compiler le firmware</p>
-    <div class="font-mono text-xs bg-gray-100 dark:bg-gray-800 rounded p-3 mt-1 space-y-1">
-      <p class="text-gray-400"># QMK</p>
+    <p class="font-semibold">QMK</p>
+    <div class="font-mono text-xs bg-gray-100 dark:bg-gray-800 rounded mt-1 space-y-1">
       <p>qmk compile -kb corne -km default</p>
       <p>qmk flash -kb corne -km default</p>
-      <p class="text-gray-400 mt-2"># ou via QMK Toolbox (GUI)</p>
     </div>
+    <p class="text-sm text-gray-400 mt-1">Ou via QMK Configurator (config.qmk.fm). Ou via VIAL (get.vial.today)</p>
   </div>
   <div>
     <p class="font-semibold">ZMK (sans-fil)</p>
@@ -1037,9 +1023,6 @@ layout: two-cols
 ::right::
 
 <div class="flex flex-col gap-4 items-center justify-center h-full pl-4">
-  <div class="h-36 w-56 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 QMK Toolbox — interface flash
-  </div>
   <div class="bg-gray-100 dark:bg-gray-800 rounded p-3 w-56 text-xs text-gray-400 space-y-1">
     <p class="font-semibold text-white">Checklist debug</p>
     <p>☐ Firmware bien flashé sur les 2 moitiés</p>
@@ -1124,44 +1107,26 @@ layout: two-cols
   <div>
     <p class="font-semibold">Le clavier</p>
     <p class="text-gray-400">
-      <!-- TODO: nom du clavier, ex: Corne v3, Kyria, Ferris Sweep... -->
-      ✏️ <em class="text-orange-400">À compléter : modèle, nombre de touches</em>
+      <em class="">Aurora Corne</em>
     </p>
   </div>
   <div>
     <p class="font-semibold">Les switches</p>
     <p class="text-gray-400">
-      <!-- TODO: ex: Kailh Choc Robin, Gateron Brown, Boba U4... -->
-      ✏️ <em class="text-orange-400">À compléter : switches utilisés</em>
+      <em class="">Sunset Kailh Low Profile Choc Switches (40g)</em>
     </p>
   </div>
   <div>
-    <p class="font-semibold">Le layout logiciel</p>
-    <p class="text-gray-400">
-      <!-- TODO: ex: Ergol, Colemak-DH, QWERTY perso... -->
-      ✏️ <em class="text-orange-400">À compléter : layout utilisé</em>
-    </p>
-  </div>
-  <div>
-    <p class="font-semibold">Ce que j'aurais fait différemment</p>
+    <p class="font-semibold">Et aussi</p>
     <ul class="text-gray-400 space-y-1 mt-1">
-      <!-- TODO: retours honnêtes sur ton parcours -->
-      <li>✏️ <em class="text-orange-400">À compléter : erreurs, regrets, surprises</em></li>
+      <li><em class="">Aurora Sweep</em></li>
+      <li><em class="">DZ60</em></li>
     </ul>
   </div>
 </div>
 
-::right::
-
-<div class="flex items-center justify-center h-full">
-  <div class="h-64 w-72 rounded shadow bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 text-sm italic">
-    📷 photo de ton setup réel
-  </div>
-</div>
-
 <!--
-Moment personnel. Parler du parcours : premier clavier, découverte du split, changement de layout.
-Ce que ça a changé concrètement au quotidien.
+
 -->
 
 ---
@@ -1197,7 +1162,7 @@ Ce que ça a changé concrètement au quotidien.
   <div class="flex items-center gap-4 p-2 rounded bg-blue-50 dark:bg-blue-900">
     <span class="w-32 font-semibold shrink-0">DIA</span>
     <span class="w-40 font-mono text-xs text-gray-500 shrink-0">sticky layer ◆</span>
-    <span class="text-gray-400">Diacritiques français (à â é ê è ç î ï ô ù û)</span>
+    <span class="text-gray-400">Diacritiques français (à â é ê è ç î ô ù û)</span>
   </div>
 </div>
 
@@ -1662,7 +1627,7 @@ class: text-center
 
 # Panorama : quelques claviers custom
 
-<p class="text-xl mt-4 text-gray-400">Du kit entrée de gamme à la commande sur-mesure.</p>
+<p class="text-xl mt-4 text-gray-400">Du kit entrée de gamme au sur-mesure.</p>
 
 <!--
 "Avant de passer à l'extrême absolu, un tour d'horizon de quelques claviers custom que vous pourrez rencontrer — ou commander."
@@ -1680,7 +1645,6 @@ layout: two-cols
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">soudure</span>
-    <span class="px-2 py-0.5 rounded bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold">~30–50 €</span>
   </div>
   <p class="text-gray-400">PCB open source conçu par <strong class="text-white">tompi</strong>. On commande les fichiers Gerber chez JLCPCB, on soude, on assemble.</p>
   <p class="text-gray-400">Le point d'entrée le plus accessible du split custom. Column stagger, 3 touches de pouce par main, firmware QMK.</p>
@@ -1709,7 +1673,6 @@ layout: two-cols
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire ou BLE</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">hotswap</span>
-    <span class="px-2 py-0.5 rounded bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold">80–150 €</span>
   </div>
   <p class="text-gray-400">Le <strong class="text-white">kit de référence</strong> du split custom. Column stagger, écran OLED optionnel, compatible MX et Choc.</p>
   <p class="text-gray-400">Communauté massive, guides de build nombreux, firmware QMK et ZMK très bien supportés.</p>
@@ -1738,7 +1701,6 @@ layout: two-cols
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">Choc low profile</span>
-    <span class="px-2 py-0.5 rounded bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold">60–120 €</span>
   </div>
   <p class="text-gray-400">Conçu par <strong class="text-white">Pierre Chevalier</strong>. Minimalisme absolu : pas d'écran, pas de diode visible, pas de boîtier nécessaire.</p>
   <p class="text-gray-400">Switches Choc uniquement — profil ultra-plat. 34 touches demandent une vraie discipline dans le layout logiciel.</p>
@@ -1767,7 +1729,6 @@ layout: two-cols
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">hotswap</span>
-    <span class="px-2 py-0.5 rounded bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 text-xs font-semibold">~365 $</span>
   </div>
   <p class="text-gray-400">Produit commercial de <strong class="text-white">ZSA</strong>. Configurateur Oryx en ligne, pas de compilation nécessaire, support client.</p>
   <p class="text-gray-400">Row stagger léger, pouce cluster articulé, tenting réglable. Clé en main — de la boîte au bureau en une heure.</p>
@@ -1796,7 +1757,6 @@ layout: two-cols
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
     <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">trackball intégré</span>
-    <span class="px-2 py-0.5 rounded bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 text-xs font-semibold">200–300 €</span>
   </div>
   <p class="text-gray-400">Par <strong class="text-white">Bastard Keyboards</strong>. La moitié droite embarque un trackball — la souris disparaît du bureau.</p>
   <p class="text-gray-400">Column stagger, firmware QMK, boîtier imprimé 3D. Kit complet disponible, assemblage requis.</p>
@@ -1846,37 +1806,28 @@ layout: two-cols
 layout: two-cols
 ---
 
-# La Svalboard
+# Svalboard
 
 <div class="pr-8 mt-4 space-y-4 text-sm">
-  <p class="text-gray-400">La conclusion logique de la philosophie 1DH, poussée à l'extrême.</p>
-
-  <div>
-    <p class="font-semibold">Le principe</p>
-    <p class="text-gray-400">Chaque doigt a exactement 5 touches dédiées, disposées en croix autour de sa position de repos. Le doigt ne se déplace presque plus — c'est la touche qui est là où le doigt va naturellement.</p>
+  <div class="flex gap-2 flex-wrap">
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">5 touches / doigt</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">split</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">filaire</span>
+    <span class="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-xs">QMK</span>
   </div>
-
-  <div>
-    <p class="font-semibold">En pratique</p>
-    <ul class="text-gray-400 space-y-1 mt-1">
-      <li>Conçu par Kyle Boatright</li>
-      <li>Inspiré du DataHand (années 90)</li>
-      <li>Courbe d'apprentissage : plusieurs semaines</li>
-      <li>Résultat : mouvement des doigts quasi nul</li>
-    </ul>
-  </div>
-
-  <p class="text-gray-400 text-xs mt-2">Cas extrême — pas une recommandation. Mais illustre jusqu'où peut aller la logique ergonomique.</p>
+  <p class="text-gray-400">Conçu par <strong class="text-white">Kyle Boatright</strong>, inspiré du DataHand (années 90). Chaque doigt a 5 touches en croix autour de sa position de repos — haut, bas, gauche, droite, pression.</p>
+  <p class="text-gray-400">Le doigt ne se déplace presque plus. C'est la conclusion logique de la philosophie 1DH, poussée à l'extrême absolu.</p>
+  <p class="text-xs text-gray-500 mt-2">Cas extrême — pas une recommandation. Illustre jusqu'où peut aller la logique ergonomique.</p>
 </div>
 
 ::right::
 
 <div class="flex items-center justify-center h-full">
-  <img src="./assets/showcase/svalboard.png" alt="Clavier Svalboard" class="h-110 rounded shadow object-contain" />
+  <img src="./assets/showcase/svalboard.png" alt="Clavier Svalboard" class="max-h-full w-full rounded shadow object-contain" />
 </div>
 
 <!--
-
+"La Svalboard, c'est l'aboutissement logique de tout ce qu'on a vu. Pas de déplacement, pas de stagger — juste 5 touches par doigt, là où le doigt va naturellement. Courbe d'apprentissage de plusieurs semaines, mais résultat : les mains ne bougent littéralement plus."
 -->
 
 ---
@@ -1899,8 +1850,7 @@ class: text-center
 <p class="mt-12 text-gray-400">Des questions ?</p>
 
 <!--
-Lire lentement. Laisser le silence après "Des questions ?"
-Avoir le clavier sous la main pour une démo si quelqu'un veut tester.
+
 -->
 
 ---
@@ -1943,8 +1893,12 @@ class: text-center
     <span class="text-gray-400 w-40 text-sm text-right shrink-0">monkeytype</span>
     <a href="https://monkeytype.com/" class="font-mono text-blue-400 hover:underline">monkeytype.com</a>
   </div>
+  <div class="flex items-center gap-4 pt-2 mt-1 border-t border-gray-200 dark:border-gray-700">
+    <span class="text-gray-400 w-40 text-sm text-right shrink-0">Slides</span>
+    <a href="https://www.typingclub.com/sportal/program-1.game" class="font-mono text-blue-400 hover:underline">github.com/vvision/talk-keyboards</a>
+  </div>
 </div>
 
 <!--
-Laisser ce slide affiché pendant les échanges.
+
 -->
